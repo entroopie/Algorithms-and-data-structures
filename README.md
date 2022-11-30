@@ -1,6 +1,15 @@
 # Algorithms-and-data-structures
 Simple algorithms and data structures implemented during laboratory classes.
 
+# Hash table
+Count the number of occurences of each word in the text given in the input. Store these numbers in a hash table: the word should be interpreted as a key (type string), and the number of occurences as a value (type int). Use the "chaining" method of collision resolving.
+
+Input
+The text (any number of words with only lower case letters, separated by spaces or new line characters). The words starting with character '?' and '-', and the word 'q' should be interpreted as commands:
+- '?' - print the number of occurences of the given word on the screen,
+- '-' - remove the information about the given word from your hash table (from this point you should start counting the occurences of this word from 0),
+- 'q' - exit.
+
 # Heap
 Implement a max/min heap and the following operations:
 - '+ v' - add a number v to the heap
