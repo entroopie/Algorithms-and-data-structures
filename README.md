@@ -1,7 +1,7 @@
-**# Algorithms-and-data-structures**
+# Algorithms-and-data-structures
 Simple algorithms and data structures implemented during laboratory classes.
 
-**#Heap**
+# Heap
 Implement a max/min heap and the following operations:
 + v (add a number v to the heap)
 - (remove the maximum from the max heap (minimum from the min heap respectively) and write it on the screen)
@@ -14,7 +14,7 @@ Operation 'r' is not the same as a sequence of '+' operations.
 If both children are equal the child of the lesser index is swapped.
 Using the std::vector class is forbidden.
 
-**#BST**
+# BST
 Implement a binary search tree (BST). Each element of a tree should have a key (unsigned integer).
 
 Your program should support the following operations:
@@ -25,7 +25,7 @@ m - write the key of the minimum element in the tree,
 M - write the key of the maximum element in the tree,
 q - quit the program.
 
-**#Linked list FIFO**
+# Linked list FIFO
 Implement a linked list. Every element of the list should contain a key of type int (signed integer), and some pointers that are required by your linked list implementation.
 
 Your program should support the following operations:
