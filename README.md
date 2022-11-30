@@ -9,6 +9,7 @@ p (write all elements of the heap in the order in which they are stored in an ar
 r n v1 ...vn (remove all elements from the heap and create a heap out of n new elements, of the values given by v1 ...vn)
 s (change the orientation of the heap – from max to min or from min to max; s operation can be requested multiple times)
 q (exit the program)
+
 Additional remarks:
 Operation 'r' is not the same as a sequence of '+' operations.
 If both children are equal the child of the lesser index is swapped.
@@ -33,4 +34,5 @@ i - insert a new element to the end of your list,
 d - delete an element from the beginning of your list,
 s - search for an element of the list with a given key, and return its index or -1 if the element was not found (if there are multiple elements with the same key, the smallest of the indices should be returned),
 q - deallocate memory and quit the program.
+
 The first element (head) of your list should be interpreted as an element on position 0, the second element is on position 1, etc.
